@@ -1,0 +1,81 @@
+/* Style Main Page */
+.main{
+	background-color: black;
+	color: white;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	border-radius: 15px solid black;
+
+}
+.bgimage{
+  background-image: url('m1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+/* Style Tobokki Page */
+.headcolor{
+	background-color: orangered;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body{ 
+  background-color: burlywood;
+}
+/* Style Gimbap Page */
+.headcolor2{
+	background-color: orangered;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Style Kimchi Page */
+.headcolor3{
+	background-color: orangered;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Style Bibimbap Page */
+.headcolor4{
+	background-color: orangered;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

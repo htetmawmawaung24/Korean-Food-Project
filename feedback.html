@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Korean Food Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">안녕하십니까</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <a class="nav-link dropdown-toggle" href="menu.html" role="button" 
+          data-bs-toggle="dropdown">Menu</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="bibimbap.html">BiBimbap</a></li>
+            <li><a class="dropdown-item" href="gimbap.html">Gimbap</a></li>
+            <li><a class="dropdown-item" href="kimchi.html">Kimchi</a></li>
+            <li><a class="dropdown-item" href="tobokki.html">Tobokki</a></li>
+          </ul>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="feedback.html">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="price.html">Price</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<li class="nav-item dropdown"><div class="container">
+  <center><h2>Feedback</h2></center>
+  <center><p>We need your feedback!!</p></center>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-group">
+    <label for="feedback">Feedback:</label>
+    <textarea class="form-control" id="feedback" rows="3"></textarea>
+  </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
